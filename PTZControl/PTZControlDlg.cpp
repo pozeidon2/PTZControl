@@ -456,6 +456,8 @@ BOOL CPTZControlDlg::OnInitDialog()
 	SetIcon(m_hIcon, TRUE);			// Set big icon
 	SetIcon(m_hIcon, FALSE);		// Set small icon
 
+	SetWindowText(L"Logitech PTZ Controller"); //set window title
+
 	// Load the bitmap
 	{
 		CMFCToolBarImages	images;
